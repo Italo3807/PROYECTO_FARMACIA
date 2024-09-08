@@ -1,0 +1,71 @@
+.contenedor-principal {
+	background-color: red;
+	height: 100vh;
+	width: 100%;
+	display: flex;
+}
+
+.imgderecha {
+	background-image: url("../imagenes/LogoLogin.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	width: 50%;
+}
+
+.login-form {
+	background-color: white;
+	height: 100vh;
+	width: 50%;
+	display: grid;
+	place-items: center;
+}
+
+.card-login {
+	background-color: white;
+	width: 60%;
+}
+
+.card-login h1 {
+	text-align: center;
+}
+
+.card-login button {
+	margin-left: 40%;
+}
+
+@media ( max-width : 980px) {
+	.imgderecha {
+		display: none;
+	}
+	.login-form {
+		width: 100%;
+	}
+}
+
+body {
+	font-size: 30px;
+}
+
+table {
+	font-size: 15px;
+}
+
+.navbar-brand {
+	font-size: 30px;
+	padding-top: 30px;
+}
+
+.container {
+	padding-top: 50px;
+}
+
+.item {
+	height: 300px;
+}
+
+canvas {
+	max-width: 1000px; /* Ajusta el ancho máximo según tu preferencia */
+	margin: 0 auto;
+	width: 800px;
+}
